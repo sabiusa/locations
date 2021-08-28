@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		771FD9C526DA5A2500FB4481 /* locationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771FD9C426DA5A2500FB4481 /* locationsApp.swift */; };
+		771FD9C526DA5A2500FB4481 /* LocationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771FD9C426DA5A2500FB4481 /* LocationsApp.swift */; };
 		771FD9C726DA5A2500FB4481 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771FD9C626DA5A2500FB4481 /* ContentView.swift */; };
 		771FD9C926DA5A2900FB4481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 771FD9C826DA5A2900FB4481 /* Assets.xcassets */; };
 		771FD9CC26DA5A2900FB4481 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 771FD9CB26DA5A2900FB4481 /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		771FD9C126DA5A2500FB4481 /* locations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = locations.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		771FD9C426DA5A2500FB4481 /* locationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationsApp.swift; sourceTree = "<group>"; };
+		771FD9C426DA5A2500FB4481 /* LocationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsApp.swift; sourceTree = "<group>"; };
 		771FD9C626DA5A2500FB4481 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		771FD9C826DA5A2900FB4481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		771FD9CB26DA5A2900FB4481 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		771FD9C326DA5A2500FB4481 /* locations */ = {
 			isa = PBXGroup;
 			children = (
-				771FD9C426DA5A2500FB4481 /* locationsApp.swift */,
+				771FD9C426DA5A2500FB4481 /* LocationsApp.swift */,
 				771FD9C626DA5A2500FB4481 /* ContentView.swift */,
 				771FD9C826DA5A2900FB4481 /* Assets.xcassets */,
 				771FD9CD26DA5A2900FB4481 /* Info.plist */,
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				771FD9C726DA5A2500FB4481 /* ContentView.swift in Sources */,
-				771FD9C526DA5A2500FB4481 /* locationsApp.swift in Sources */,
+				771FD9C526DA5A2500FB4481 /* LocationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
