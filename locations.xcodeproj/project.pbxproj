@@ -32,6 +32,7 @@
 		771FD9E126DA847000FB4481 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771FD9E026DA847000FB4481 /* LandmarkRow.swift */; };
 		771FD9E326DA85D900FB4481 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771FD9E226DA85D900FB4481 /* LandmarkList.swift */; };
 		771FD9E526DA86DD00FB4481 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771FD9E426DA86DD00FB4481 /* LandmarkDetail.swift */; };
+		779D299326DBCD3F0077EF53 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D299226DBCD3F0077EF53 /* CategoryHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		771FD9E026DA847000FB4481 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		771FD9E226DA85D900FB4481 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		771FD9E426DA86DD00FB4481 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		779D299226DBCD3F0077EF53 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 		771FD9D326DA614B00FB4481 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				779D299126DBCD300077EF53 /* Categories */,
 				771E501326DB44C9000AB3FE /* Components */,
 				771FD9E026DA847000FB4481 /* LandmarkRow.swift */,
 			);
@@ -186,6 +189,14 @@
 				771E502126DBB01C000AB3FE /* Hike.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		779D299126DBCD300077EF53 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				779D299226DBCD3F0077EF53 /* CategoryHome.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +286,7 @@
 				771E501726DB882F000AB3FE /* BadgeBackground.swift in Sources */,
 				771FD9DD26DA82F100FB4481 /* Landmark.swift in Sources */,
 				771E502826DBB0A3000AB3FE /* GraphCapsule.swift in Sources */,
+				779D299326DBCD3F0077EF53 /* CategoryHome.swift in Sources */,
 				771E502B26DBB0A3000AB3FE /* HikeView.swift in Sources */,
 				771FD9E126DA847000FB4481 /* LandmarkRow.swift in Sources */,
 				771E501226DB43E7000AB3FE /* FavoriteButton.swift in Sources */,
