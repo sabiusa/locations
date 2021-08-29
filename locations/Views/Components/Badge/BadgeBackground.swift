@@ -20,7 +20,6 @@ struct BadgeBackground: View {
                 let xScale: CGFloat = 0.832
                 let xOffset = (width * (1.0 - xScale)) / 2.0
                 width *= xScale
-
                 
                 path.move(
                     to: CGPoint(
