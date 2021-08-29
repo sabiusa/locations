@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		771E501026DB3F91000AB3FE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E500F26DB3F91000AB3FE /* Helpers.swift */; };
 		771FD9C526DA5A2500FB4481 /* LocationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771FD9C426DA5A2500FB4481 /* LocationsApp.swift */; };
 		771FD9C726DA5A2500FB4481 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771FD9C626DA5A2500FB4481 /* ContentView.swift */; };
 		771FD9C926DA5A2900FB4481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 771FD9C826DA5A2900FB4481 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		771E500F26DB3F91000AB3FE /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		771FD9C126DA5A2500FB4481 /* locations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = locations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		771FD9C426DA5A2500FB4481 /* LocationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsApp.swift; sourceTree = "<group>"; };
 		771FD9C626DA5A2500FB4481 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		771E500E26DB3F79000AB3FE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				771E500F26DB3F91000AB3FE /* Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		771FD9B826DA5A2500FB4481 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +85,7 @@
 				771FD9D326DA614B00FB4481 /* Views */,
 				771FD9DB26DA82E200FB4481 /* Models */,
 				771FD9D826DA828400FB4481 /* Resourses */,
+				771E500E26DB3F79000AB3FE /* Helpers */,
 				771FD9C826DA5A2900FB4481 /* Assets.xcassets */,
 				771FD9CD26DA5A2900FB4481 /* Info.plist */,
 				771FD9CA26DA5A2900FB4481 /* Preview Content */,
@@ -190,6 +201,7 @@
 				771FD9C726DA5A2500FB4481 /* ContentView.swift in Sources */,
 				771FD9D726DA629400FB4481 /* MapView.swift in Sources */,
 				771FD9C526DA5A2500FB4481 /* LocationsApp.swift in Sources */,
+				771E501026DB3F91000AB3FE /* Helpers.swift in Sources */,
 				771FD9E326DA85D900FB4481 /* LandmarkList.swift in Sources */,
 				771FD9E526DA86DD00FB4481 /* LandmarkDetail.swift in Sources */,
 				771FD9D526DA616F00FB4481 /* CircleImage.swift in Sources */,
