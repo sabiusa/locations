@@ -30,20 +30,38 @@ struct HikeView: View {
                 Spacer()
 
                 Button(
-                    action: { self.showDetail.toggle() },
+                    action: {
+                        withAnimation {
+                            self.showDetail.toggle()
+                        }
+                    },
                     label: {
                         Image(systemName: "chevron.right.circle")
+                            .padding()
                             .imageScale(.large)
                             .rotationEffect(.degrees(showDetail ? 90 : 0))
-                            .padding()
+                            .scaleEffect(showDetail ? 1.5 : 1)
                     }
                 )
             }
 
             if showDetail {
                 HikeDetail(hike: hike)
+                    .transition(.moveAndFade)
             }
         }
+    }
+    
+}
+
+extension AnyTransition {
+    
+    static var moveAndFade: AnyTransition {
+        let insertion = AnyTransition.move(edge: .trailing)
+            .combined(with: .opacity)
+        let removal = AnyTransition.scale
+            .combined(with: .opacity)
+        return .asymmetric(insertion: insertion, removal: removal)
     }
     
 }
