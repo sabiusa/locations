@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		771E501026DB3F91000AB3FE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E500F26DB3F91000AB3FE /* Helpers.swift */; };
+		771E501226DB43E7000AB3FE /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E501126DB43E7000AB3FE /* FavoriteButton.swift */; };
 		771FD9C526DA5A2500FB4481 /* LocationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771FD9C426DA5A2500FB4481 /* LocationsApp.swift */; };
 		771FD9C726DA5A2500FB4481 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771FD9C626DA5A2500FB4481 /* ContentView.swift */; };
 		771FD9C926DA5A2900FB4481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 771FD9C826DA5A2900FB4481 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		771E500F26DB3F91000AB3FE /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		771E501126DB43E7000AB3FE /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		771FD9C126DA5A2500FB4481 /* locations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = locations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		771FD9C426DA5A2500FB4481 /* LocationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsApp.swift; sourceTree = "<group>"; };
 		771FD9C626DA5A2500FB4481 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,16 @@
 				771E500F26DB3F91000AB3FE /* Helpers.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		771E501326DB44C9000AB3FE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				771FD9D426DA616F00FB4481 /* CircleImage.swift */,
+				771FD9D626DA629400FB4481 /* MapView.swift */,
+				771E501126DB43E7000AB3FE /* FavoriteButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		771FD9B826DA5A2500FB4481 = {
@@ -104,8 +116,7 @@
 		771FD9D326DA614B00FB4481 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				771FD9D426DA616F00FB4481 /* CircleImage.swift */,
-				771FD9D626DA629400FB4481 /* MapView.swift */,
+				771E501326DB44C9000AB3FE /* Components */,
 				771FD9E026DA847000FB4481 /* LandmarkRow.swift */,
 			);
 			path = Views;
@@ -207,6 +218,7 @@
 				771FD9D526DA616F00FB4481 /* CircleImage.swift in Sources */,
 				771FD9DD26DA82F100FB4481 /* Landmark.swift in Sources */,
 				771FD9E126DA847000FB4481 /* LandmarkRow.swift in Sources */,
+				771E501226DB43E7000AB3FE /* FavoriteButton.swift in Sources */,
 				771FD9DF26DA83C300FB4481 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
