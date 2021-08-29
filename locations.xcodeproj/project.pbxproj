@@ -33,6 +33,8 @@
 		771FD9E326DA85D900FB4481 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771FD9E226DA85D900FB4481 /* LandmarkList.swift */; };
 		771FD9E526DA86DD00FB4481 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771FD9E426DA86DD00FB4481 /* LandmarkDetail.swift */; };
 		779D299326DBCD3F0077EF53 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D299226DBCD3F0077EF53 /* CategoryHome.swift */; };
+		779D299526DBD1E20077EF53 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D299426DBD1E20077EF53 /* CategoryRow.swift */; };
+		779D299726DBE5E40077EF53 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D299626DBE5E40077EF53 /* CategoryItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,8 @@
 		771FD9E226DA85D900FB4481 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		771FD9E426DA86DD00FB4481 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		779D299226DBCD3F0077EF53 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		779D299426DBD1E20077EF53 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		779D299626DBE5E40077EF53 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +199,8 @@
 			isa = PBXGroup;
 			children = (
 				779D299226DBCD3F0077EF53 /* CategoryHome.swift */,
+				779D299426DBD1E20077EF53 /* CategoryRow.swift */,
+				779D299626DBE5E40077EF53 /* CategoryItem.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -280,8 +286,10 @@
 				771FD9E326DA85D900FB4481 /* LandmarkList.swift in Sources */,
 				771FD9E526DA86DD00FB4481 /* LandmarkDetail.swift in Sources */,
 				771E501A26DB927C000AB3FE /* BadgeSymbol.swift in Sources */,
+				779D299726DBE5E40077EF53 /* CategoryItem.swift in Sources */,
 				771E501C26DB93A5000AB3FE /* RotatedBadgeSymbol.swift in Sources */,
 				771E501E26DB944F000AB3FE /* Badge.swift in Sources */,
+				779D299526DBD1E20077EF53 /* CategoryRow.swift in Sources */,
 				771FD9D526DA616F00FB4481 /* CircleImage.swift in Sources */,
 				771E501726DB882F000AB3FE /* BadgeBackground.swift in Sources */,
 				771FD9DD26DA82F100FB4481 /* Landmark.swift in Sources */,
