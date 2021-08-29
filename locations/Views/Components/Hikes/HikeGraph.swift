@@ -38,8 +38,11 @@ struct HikeGraph: View {
                         index: index,
                         height: proxy.size.height,
                         range: observation[keyPath: path],
-                        overallRange: overallRange)
-                        .colorMultiply(color)
+                        overallRange: overallRange
+                    )
+                    .colorMultiply(color)
+                    .transition(.slide)
+                    .animation(.ripple(index: index))
                 }
                 .offset(x: 0, y: proxy.size.height * heightRatio)
             }
@@ -58,6 +61,16 @@ func rangeOfRanges<C: Collection>(_ ranges: C) -> Range<Double>
 
 func magnitude(of range: Range<Double>) -> Double {
     return range.upperBound - range.lowerBound
+}
+
+extension Animation {
+    
+    static func ripple(index: Int) -> Animation {
+        Animation.spring(dampingFraction: 0.5)
+            .speed(2)
+            .delay(0.03 * Double(index))
+    }
+    
 }
 
 struct HikeGraph_Previews: PreviewProvider {
