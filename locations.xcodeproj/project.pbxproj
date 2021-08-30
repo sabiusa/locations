@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E50924026DD1E3400CA2FAA /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50923F26DD1E3400CA2FAA /* PageViewController.swift */; };
 		771E501026DB3F91000AB3FE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E500F26DB3F91000AB3FE /* Helpers.swift */; };
 		771E501226DB43E7000AB3FE /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E501126DB43E7000AB3FE /* FavoriteButton.swift */; };
 		771E501526DB4BD1000AB3FE /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E501426DB4BD1000AB3FE /* HexagonParameters.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E50923F26DD1E3400CA2FAA /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		771E500F26DB3F91000AB3FE /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		771E501126DB43E7000AB3FE /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		771E501426DB4BD1000AB3FE /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
@@ -91,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E50923E26DD1E2100CA2FAA /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				3E50923F26DD1E3400CA2FAA /* PageViewController.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
 		771E500E26DB3F79000AB3FE /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +190,7 @@
 		771FD9D326DA614B00FB4481 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3E50923E26DD1E2100CA2FAA /* Page */,
 				779D299A26DC94870077EF53 /* Profile */,
 				779D299126DBCD300077EF53 /* Categories */,
 				771E501326DB44C9000AB3FE /* Components */,
@@ -320,6 +331,7 @@
 				771FD9D526DA616F00FB4481 /* CircleImage.swift in Sources */,
 				771E501726DB882F000AB3FE /* BadgeBackground.swift in Sources */,
 				779D299926DC94500077EF53 /* Profile.swift in Sources */,
+				3E50924026DD1E3400CA2FAA /* PageViewController.swift in Sources */,
 				771FD9DD26DA82F100FB4481 /* Landmark.swift in Sources */,
 				771E502826DBB0A3000AB3FE /* GraphCapsule.swift in Sources */,
 				779D299326DBCD3F0077EF53 /* CategoryHome.swift in Sources */,
