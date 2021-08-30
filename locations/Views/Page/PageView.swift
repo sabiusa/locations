@@ -14,13 +14,18 @@ struct PageView<Page: View>: View {
     var pages: [Page]
     
     var body: some View {
-        VStack {
+        ZStack(alignment: .bottomTrailing) {
             PageViewController(
                 currentPage: $currentPage,
                 pages: pages
             )
             
-            Text("Current page: \(currentPage)")
+            PageControl(
+                currentPage: $currentPage,
+                numberOfPages: pages.count
+            )
+            .frame(width: CGFloat(pages.count * 20))
+            .padding(.trailing)
         }
     }
     
