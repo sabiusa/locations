@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3E50924026DD1E3400CA2FAA /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50923F26DD1E3400CA2FAA /* PageViewController.swift */; };
+		3E50924226DD219000CA2FAA /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50924126DD219000CA2FAA /* FeatureCard.swift */; };
 		771E501026DB3F91000AB3FE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E500F26DB3F91000AB3FE /* Helpers.swift */; };
 		771E501226DB43E7000AB3FE /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E501126DB43E7000AB3FE /* FavoriteButton.swift */; };
 		771E501526DB4BD1000AB3FE /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E501426DB4BD1000AB3FE /* HexagonParameters.swift */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		3E50923F26DD1E3400CA2FAA /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		3E50924126DD219000CA2FAA /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		771E500F26DB3F91000AB3FE /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		771E501126DB43E7000AB3FE /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		771E501426DB4BD1000AB3FE /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 				779D299126DBCD300077EF53 /* Categories */,
 				771E501326DB44C9000AB3FE /* Components */,
 				771FD9E026DA847000FB4481 /* LandmarkRow.swift */,
+				3E50924126DD219000CA2FAA /* FeatureCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				771FD9C526DA5A2500FB4481 /* LocationsApp.swift in Sources */,
 				771E501026DB3F91000AB3FE /* Helpers.swift in Sources */,
 				771FD9E326DA85D900FB4481 /* LandmarkList.swift in Sources */,
+				3E50924226DD219000CA2FAA /* FeatureCard.swift in Sources */,
 				771FD9E526DA86DD00FB4481 /* LandmarkDetail.swift in Sources */,
 				771E501A26DB927C000AB3FE /* BadgeSymbol.swift in Sources */,
 				779D299E26DC94C70077EF53 /* ProfileSummary.swift in Sources */,
