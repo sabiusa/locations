@@ -35,6 +35,9 @@
 		779D299326DBCD3F0077EF53 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D299226DBCD3F0077EF53 /* CategoryHome.swift */; };
 		779D299526DBD1E20077EF53 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D299426DBD1E20077EF53 /* CategoryRow.swift */; };
 		779D299726DBE5E40077EF53 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D299626DBE5E40077EF53 /* CategoryItem.swift */; };
+		779D299926DC94500077EF53 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D299826DC94500077EF53 /* Profile.swift */; };
+		779D299C26DC94910077EF53 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D299B26DC94910077EF53 /* ProfileHost.swift */; };
+		779D299E26DC94C70077EF53 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D299D26DC94C70077EF53 /* ProfileSummary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +71,9 @@
 		779D299226DBCD3F0077EF53 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		779D299426DBD1E20077EF53 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		779D299626DBE5E40077EF53 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		779D299826DC94500077EF53 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		779D299B26DC94910077EF53 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		779D299D26DC94C70077EF53 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +175,7 @@
 		771FD9D326DA614B00FB4481 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				779D299A26DC94870077EF53 /* Profile */,
 				779D299126DBCD300077EF53 /* Categories */,
 				771E501326DB44C9000AB3FE /* Components */,
 				771FD9E026DA847000FB4481 /* LandmarkRow.swift */,
@@ -191,6 +198,7 @@
 				771FD9DC26DA82F100FB4481 /* Landmark.swift */,
 				771FD9DE26DA83C300FB4481 /* ModelData.swift */,
 				771E502126DBB01C000AB3FE /* Hike.swift */,
+				779D299826DC94500077EF53 /* Profile.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -203,6 +211,15 @@
 				779D299626DBE5E40077EF53 /* CategoryItem.swift */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		779D299A26DC94870077EF53 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				779D299B26DC94910077EF53 /* ProfileHost.swift */,
+				779D299D26DC94C70077EF53 /* ProfileSummary.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,17 +298,20 @@
 				771FD9C726DA5A2500FB4481 /* ContentView.swift in Sources */,
 				771FD9D726DA629400FB4481 /* MapView.swift in Sources */,
 				771E502926DBB0A3000AB3FE /* HikeGraph.swift in Sources */,
+				779D299C26DC94910077EF53 /* ProfileHost.swift in Sources */,
 				771FD9C526DA5A2500FB4481 /* LocationsApp.swift in Sources */,
 				771E501026DB3F91000AB3FE /* Helpers.swift in Sources */,
 				771FD9E326DA85D900FB4481 /* LandmarkList.swift in Sources */,
 				771FD9E526DA86DD00FB4481 /* LandmarkDetail.swift in Sources */,
 				771E501A26DB927C000AB3FE /* BadgeSymbol.swift in Sources */,
+				779D299E26DC94C70077EF53 /* ProfileSummary.swift in Sources */,
 				779D299726DBE5E40077EF53 /* CategoryItem.swift in Sources */,
 				771E501C26DB93A5000AB3FE /* RotatedBadgeSymbol.swift in Sources */,
 				771E501E26DB944F000AB3FE /* Badge.swift in Sources */,
 				779D299526DBD1E20077EF53 /* CategoryRow.swift in Sources */,
 				771FD9D526DA616F00FB4481 /* CircleImage.swift in Sources */,
 				771E501726DB882F000AB3FE /* BadgeBackground.swift in Sources */,
+				779D299926DC94500077EF53 /* Profile.swift in Sources */,
 				771FD9DD26DA82F100FB4481 /* Landmark.swift in Sources */,
 				771E502826DBB0A3000AB3FE /* GraphCapsule.swift in Sources */,
 				779D299326DBCD3F0077EF53 /* CategoryHome.swift in Sources */,
