@@ -39,6 +39,7 @@
 		779D299C26DC94910077EF53 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D299B26DC94910077EF53 /* ProfileHost.swift */; };
 		779D299E26DC94C70077EF53 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D299D26DC94C70077EF53 /* ProfileSummary.swift */; };
 		779D29A026DC958E0077EF53 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D299F26DC958E0077EF53 /* HikeBadge.swift */; };
+		779D29A226DC9D270077EF53 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D29A126DC9D270077EF53 /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		779D299B26DC94910077EF53 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		779D299D26DC94C70077EF53 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		779D299F26DC958E0077EF53 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		779D29A126DC9D270077EF53 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 			children = (
 				779D299B26DC94910077EF53 /* ProfileHost.swift */,
 				779D299D26DC94C70077EF53 /* ProfileSummary.swift */,
+				779D29A126DC9D270077EF53 /* ProfileEditor.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				771FD9E526DA86DD00FB4481 /* LandmarkDetail.swift in Sources */,
 				771E501A26DB927C000AB3FE /* BadgeSymbol.swift in Sources */,
 				779D299E26DC94C70077EF53 /* ProfileSummary.swift in Sources */,
+				779D29A226DC9D270077EF53 /* ProfileEditor.swift in Sources */,
 				779D299726DBE5E40077EF53 /* CategoryItem.swift in Sources */,
 				771E501C26DB93A5000AB3FE /* RotatedBadgeSymbol.swift in Sources */,
 				771E501E26DB944F000AB3FE /* Badge.swift in Sources */,
