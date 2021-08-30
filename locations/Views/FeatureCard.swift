@@ -15,6 +15,7 @@ struct FeatureCard: View {
         landmark.featuredImage?
             .resizable()
             .aspectRatio(3 / 2, contentMode: .fit)
+            .overlay(TextOverlay(landmark: landmark))
     }
     
 }
