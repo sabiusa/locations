@@ -11,9 +11,22 @@ struct ProfileHost: View {
     
     @State private var draftProfile = Profile.default
     
+    @EnvironmentObject var modelData: ModelData
+    
+    @Environment(\.editMode) var editMode
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
-            ProfileSummary(profile: draftProfile)
+            HStack {
+                Spacer()
+                EditButton()
+            }
+            
+            if editMode?.wrappedValue == .inactive {
+                ProfileSummary(profile: modelData.profile)
+            } else {
+                Text("Profile Editor")
+            }
         }
         .padding()
     }
@@ -24,6 +37,7 @@ struct ProfileHost_Previews: PreviewProvider {
     
     static var previews: some View {
         ProfileHost()
+            .environmentObject(ModelData())
     }
     
 }
