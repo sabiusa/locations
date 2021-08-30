@@ -21,6 +21,26 @@ struct ProfileSummary: View {
                 Text("Notifications: \(profile.prefersNotifications ? "On": "Off" )")
                 Text("Seasonal Photos: \(profile.seasonalPhoto.rawValue)")
                 Text("Goal Date: ") + Text(profile.goalDate, style: .date)
+                
+                Divider()
+                
+                VStack(alignment: .leading) {
+                    Text("Completed Badges")
+                        .font(.headline)
+                    
+                    ScrollView(.horizontal) {
+                        HStack {
+                            HikeBadge(name: "First Hike")
+                            
+                            HikeBadge(name: "Earth Day")
+                                .hueRotation(Angle(degrees: 90))
+                            
+                            HikeBadge(name: "Tenth Hike")
+                                .hueRotation(Angle(degrees: -90))
+                        }
+                        .padding(.bottom)
+                    }
+                }
             }
         }
     }

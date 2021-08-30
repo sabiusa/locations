@@ -38,6 +38,7 @@
 		779D299926DC94500077EF53 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D299826DC94500077EF53 /* Profile.swift */; };
 		779D299C26DC94910077EF53 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D299B26DC94910077EF53 /* ProfileHost.swift */; };
 		779D299E26DC94C70077EF53 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D299D26DC94C70077EF53 /* ProfileSummary.swift */; };
+		779D29A026DC958E0077EF53 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D299F26DC958E0077EF53 /* HikeBadge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		779D299826DC94500077EF53 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		779D299B26DC94910077EF53 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		779D299D26DC94C70077EF53 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		779D299F26DC958E0077EF53 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				771E502526DBB0A3000AB3FE /* HikeGraph.swift */,
 				771E502626DBB0A3000AB3FE /* HikeDetail.swift */,
 				771E502726DBB0A3000AB3FE /* HikeView.swift */,
+				779D299F26DC958E0077EF53 /* HikeBadge.swift */,
 			);
 			path = Hikes;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				771FD9D726DA629400FB4481 /* MapView.swift in Sources */,
 				771E502926DBB0A3000AB3FE /* HikeGraph.swift in Sources */,
 				779D299C26DC94910077EF53 /* ProfileHost.swift in Sources */,
+				779D29A026DC958E0077EF53 /* HikeBadge.swift in Sources */,
 				771FD9C526DA5A2500FB4481 /* LocationsApp.swift in Sources */,
 				771E501026DB3F91000AB3FE /* Helpers.swift in Sources */,
 				771FD9E326DA85D900FB4481 /* LandmarkList.swift in Sources */,
