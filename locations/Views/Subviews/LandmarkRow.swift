@@ -22,9 +22,11 @@ struct LandmarkRow: View {
                 Text(landmark.name)
                     .bold()
                 
+                #if !os(watchOS)
                 Text(landmark.park)
                     .font(.caption)
                     .foregroundColor(.secondary)
+                #endif
             }
             
             Spacer()
