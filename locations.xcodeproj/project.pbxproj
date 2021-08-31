@@ -358,9 +358,7 @@
 		779D29B426DDD2B90077EF53 /* watch-locations Extension */ = {
 			isa = PBXGroup;
 			children = (
-				779D29B726DDD2B90077EF53 /* ContentView.swift */,
 				779D29B926DDD2B90077EF53 /* NotificationController.swift */,
-				779D29BB26DDD2B90077EF53 /* NotificationView.swift */,
 				779D29BD26DDD2B90077EF53 /* ComplicationController.swift */,
 				779D29E726DDDC660077EF53 /* Views */,
 				779D29BF26DDD2B90077EF53 /* Assets.xcassets */,
@@ -391,6 +389,8 @@
 		779D29E726DDDC660077EF53 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				779D29B726DDD2B90077EF53 /* ContentView.swift */,
+				779D29BB26DDD2B90077EF53 /* NotificationView.swift */,
 				779D29E826DDDC760077EF53 /* LandmarkDetail.swift */,
 			);
 			path = Views;
