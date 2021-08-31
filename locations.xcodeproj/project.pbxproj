@@ -45,7 +45,59 @@
 		779D29A026DC958E0077EF53 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D299F26DC958E0077EF53 /* HikeBadge.swift */; };
 		779D29A226DC9D270077EF53 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D29A126DC9D270077EF53 /* ProfileEditor.swift */; };
 		779D29A426DD58E10077EF53 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D29A326DD58E10077EF53 /* PageControl.swift */; };
+		779D29AA26DDD2B80077EF53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779D29A926DDD2B80077EF53 /* Assets.xcassets */; };
+		779D29B126DDD2B90077EF53 /* watch-locations Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 779D29B026DDD2B90077EF53 /* watch-locations Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		779D29B626DDD2B90077EF53 /* locationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D29B526DDD2B90077EF53 /* locationsApp.swift */; };
+		779D29B826DDD2B90077EF53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D29B726DDD2B90077EF53 /* ContentView.swift */; };
+		779D29BA26DDD2B90077EF53 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D29B926DDD2B90077EF53 /* NotificationController.swift */; };
+		779D29BC26DDD2B90077EF53 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D29BB26DDD2B90077EF53 /* NotificationView.swift */; };
+		779D29BE26DDD2B90077EF53 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D29BD26DDD2B90077EF53 /* ComplicationController.swift */; };
+		779D29C026DDD2B90077EF53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779D29BF26DDD2B90077EF53 /* Assets.xcassets */; };
+		779D29C326DDD2B90077EF53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779D29C226DDD2B90077EF53 /* Preview Assets.xcassets */; };
+		779D29C826DDD2B90077EF53 /* watch-locations.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 779D29A726DDD2B60077EF53 /* watch-locations.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		779D29B226DDD2B90077EF53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 771FD9B926DA5A2500FB4481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 779D29AF26DDD2B90077EF53;
+			remoteInfo = "watch-locations Extension";
+		};
+		779D29C626DDD2B90077EF53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 771FD9B926DA5A2500FB4481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 779D29A626DDD2B60077EF53;
+			remoteInfo = "watch-locations";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		779D29C926DDD2B90077EF53 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				779D29C826DDD2B90077EF53 /* watch-locations.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779D29CC26DDD2B90077EF53 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				779D29B126DDD2B90077EF53 /* watch-locations Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3E50923F26DD1E3400CA2FAA /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
@@ -88,10 +140,30 @@
 		779D299F26DC958E0077EF53 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		779D29A126DC9D270077EF53 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		779D29A326DD58E10077EF53 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		779D29A726DDD2B60077EF53 /* watch-locations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch-locations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		779D29A926DDD2B80077EF53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		779D29AB26DDD2B80077EF53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779D29B026DDD2B90077EF53 /* watch-locations Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watch-locations Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		779D29B526DDD2B90077EF53 /* locationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationsApp.swift; sourceTree = "<group>"; };
+		779D29B726DDD2B90077EF53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		779D29B926DDD2B90077EF53 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		779D29BB26DDD2B90077EF53 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		779D29BD26DDD2B90077EF53 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		779D29BF26DDD2B90077EF53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		779D29C226DDD2B90077EF53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		779D29C426DDD2B90077EF53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779D29C526DDD2B90077EF53 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		771FD9BE26DA5A2500FB4481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779D29AD26DDD2B90077EF53 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -160,6 +232,8 @@
 			isa = PBXGroup;
 			children = (
 				771FD9C326DA5A2500FB4481 /* locations */,
+				779D29A826DDD2B60077EF53 /* watch-locations */,
+				779D29B426DDD2B90077EF53 /* watch-locations Extension */,
 				771FD9C226DA5A2500FB4481 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -168,6 +242,8 @@
 			isa = PBXGroup;
 			children = (
 				771FD9C126DA5A2500FB4481 /* locations.app */,
+				779D29A726DDD2B60077EF53 /* watch-locations.app */,
+				779D29B026DDD2B90077EF53 /* watch-locations Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -251,6 +327,39 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
+		779D29A826DDD2B60077EF53 /* watch-locations */ = {
+			isa = PBXGroup;
+			children = (
+				779D29A926DDD2B80077EF53 /* Assets.xcassets */,
+				779D29AB26DDD2B80077EF53 /* Info.plist */,
+			);
+			path = "watch-locations";
+			sourceTree = "<group>";
+		};
+		779D29B426DDD2B90077EF53 /* watch-locations Extension */ = {
+			isa = PBXGroup;
+			children = (
+				779D29B526DDD2B90077EF53 /* locationsApp.swift */,
+				779D29B726DDD2B90077EF53 /* ContentView.swift */,
+				779D29B926DDD2B90077EF53 /* NotificationController.swift */,
+				779D29BB26DDD2B90077EF53 /* NotificationView.swift */,
+				779D29BD26DDD2B90077EF53 /* ComplicationController.swift */,
+				779D29BF26DDD2B90077EF53 /* Assets.xcassets */,
+				779D29C426DDD2B90077EF53 /* Info.plist */,
+				779D29C526DDD2B90077EF53 /* PushNotificationPayload.apns */,
+				779D29C126DDD2B90077EF53 /* Preview Content */,
+			);
+			path = "watch-locations Extension";
+			sourceTree = "<group>";
+		};
+		779D29C126DDD2B90077EF53 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				779D29C226DDD2B90077EF53 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -261,15 +370,51 @@
 				771FD9BD26DA5A2500FB4481 /* Sources */,
 				771FD9BE26DA5A2500FB4481 /* Frameworks */,
 				771FD9BF26DA5A2500FB4481 /* Resources */,
+				779D29C926DDD2B90077EF53 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				779D29C726DDD2B90077EF53 /* PBXTargetDependency */,
 			);
 			name = locations;
 			productName = locations;
 			productReference = 771FD9C126DA5A2500FB4481 /* locations.app */;
 			productType = "com.apple.product-type.application";
+		};
+		779D29A626DDD2B60077EF53 /* watch-locations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779D29D026DDD2B90077EF53 /* Build configuration list for PBXNativeTarget "watch-locations" */;
+			buildPhases = (
+				779D29A526DDD2B60077EF53 /* Resources */,
+				779D29CC26DDD2B90077EF53 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				779D29B326DDD2B90077EF53 /* PBXTargetDependency */,
+			);
+			name = "watch-locations";
+			productName = "watch-locations";
+			productReference = 779D29A726DDD2B60077EF53 /* watch-locations.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		779D29AF26DDD2B90077EF53 /* watch-locations Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779D29CF26DDD2B90077EF53 /* Build configuration list for PBXNativeTarget "watch-locations Extension" */;
+			buildPhases = (
+				779D29AC26DDD2B90077EF53 /* Sources */,
+				779D29AD26DDD2B90077EF53 /* Frameworks */,
+				779D29AE26DDD2B90077EF53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watch-locations Extension";
+			productName = "watch-locations Extension";
+			productReference = 779D29B026DDD2B90077EF53 /* watch-locations Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -281,6 +426,12 @@
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					771FD9C026DA5A2500FB4481 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					779D29A626DDD2B60077EF53 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					779D29AF26DDD2B90077EF53 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
@@ -299,6 +450,8 @@
 			projectRoot = "";
 			targets = (
 				771FD9C026DA5A2500FB4481 /* locations */,
+				779D29A626DDD2B60077EF53 /* watch-locations */,
+				779D29AF26DDD2B90077EF53 /* watch-locations Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -312,6 +465,23 @@
 				771FD9CC26DA5A2900FB4481 /* Preview Assets.xcassets in Resources */,
 				771FD9C926DA5A2900FB4481 /* Assets.xcassets in Resources */,
 				771FD9DA26DA82CD00FB4481 /* landmarkData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779D29A526DDD2B60077EF53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779D29AA26DDD2B80077EF53 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779D29AE26DDD2B90077EF53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779D29C326DDD2B90077EF53 /* Preview Assets.xcassets in Resources */,
+				779D29C026DDD2B90077EF53 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +529,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		779D29AC26DDD2B90077EF53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779D29BA26DDD2B90077EF53 /* NotificationController.swift in Sources */,
+				779D29B826DDD2B90077EF53 /* ContentView.swift in Sources */,
+				779D29BE26DDD2B90077EF53 /* ComplicationController.swift in Sources */,
+				779D29B626DDD2B90077EF53 /* locationsApp.swift in Sources */,
+				779D29BC26DDD2B90077EF53 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		779D29B326DDD2B90077EF53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 779D29AF26DDD2B90077EF53 /* watch-locations Extension */;
+			targetProxy = 779D29B226DDD2B90077EF53 /* PBXContainerItemProxy */;
+		};
+		779D29C726DDD2B90077EF53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 779D29A626DDD2B60077EF53 /* watch-locations */;
+			targetProxy = 779D29C626DDD2B90077EF53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		771FD9CE26DA5A2900FB4481 /* Debug */ = {
@@ -522,6 +717,94 @@
 			};
 			name = Release;
 		};
+		779D29CA26DDD2B90077EF53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GY7TL5G8Y;
+				IBSC_MODULE = watch_locations_Extension;
+				INFOPLIST_FILE = "watch-locations/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sabius.locations.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		779D29CB26DDD2B90077EF53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GY7TL5G8Y;
+				IBSC_MODULE = watch_locations_Extension;
+				INFOPLIST_FILE = "watch-locations/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sabius.locations.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		779D29CD26DDD2B90077EF53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"watch-locations Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2GY7TL5G8Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "watch-locations Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sabius.locations.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		779D29CE26DDD2B90077EF53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"watch-locations Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 2GY7TL5G8Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "watch-locations Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sabius.locations.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -539,6 +822,24 @@
 			buildConfigurations = (
 				771FD9D126DA5A2900FB4481 /* Debug */,
 				771FD9D226DA5A2900FB4481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779D29CF26DDD2B90077EF53 /* Build configuration list for PBXNativeTarget "watch-locations Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779D29CD26DDD2B90077EF53 /* Debug */,
+				779D29CE26DDD2B90077EF53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779D29D026DDD2B90077EF53 /* Build configuration list for PBXNativeTarget "watch-locations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779D29CA26DDD2B90077EF53 /* Debug */,
+				779D29CB26DDD2B90077EF53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
