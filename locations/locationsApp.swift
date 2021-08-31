@@ -19,7 +19,7 @@ struct LocationsApp: App {
         }
         
         #if os(watchOS)
-        WKNotificationScene(controller: NotificationContoller.self, category: "LandmarkNear")
+        WKNotificationScene(controller: NotificationController.self, category: "LandmarkNear")
         #endif
     }
     
