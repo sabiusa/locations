@@ -33,6 +33,7 @@
 		3E50926E26DE30BB00CA2FAA /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50926D26DE30BB00CA2FAA /* LandmarkList.swift */; };
 		3E50927026DE35FF00CA2FAA /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50926F26DE35FF00CA2FAA /* LandmarkCommands.swift */; };
 		3E50927126DE35FF00CA2FAA /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50926F26DE35FF00CA2FAA /* LandmarkCommands.swift */; };
+		3E50927326DE3E3900CA2FAA /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50927226DE3E3900CA2FAA /* LandmarkSettings.swift */; };
 		771E501026DB3F91000AB3FE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E500F26DB3F91000AB3FE /* Helpers.swift */; };
 		771E501226DB43E7000AB3FE /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E501126DB43E7000AB3FE /* FavoriteButton.swift */; };
 		771E501526DB4BD1000AB3FE /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E501426DB4BD1000AB3FE /* HexagonParameters.swift */; };
@@ -143,7 +144,7 @@
 		3E50924126DD219000CA2FAA /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		3E50924326DD221A00CA2FAA /* TextOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextOverlay.swift; sourceTree = "<group>"; };
 		3E50924526DD237B00CA2FAA /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
-		3E50924B26DE1FAF00CA2FAA /* mac-locations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mac-locations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E50924B26DE1FAF00CA2FAA /* Locations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E50924F26DE1FAF00CA2FAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E50925126DE1FB200CA2FAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E50925426DE1FB200CA2FAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -152,6 +153,7 @@
 		3E50926926DE231800CA2FAA /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		3E50926D26DE30BB00CA2FAA /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		3E50926F26DE35FF00CA2FAA /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+		3E50927226DE3E3900CA2FAA /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 		771E500F26DB3F91000AB3FE /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		771E501126DB43E7000AB3FE /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		771E501426DB4BD1000AB3FE /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
@@ -264,6 +266,7 @@
 			children = (
 				3E50924F26DE1FAF00CA2FAA /* ContentView.swift */,
 				3E50926926DE231800CA2FAA /* LandmarkDetail.swift */,
+				3E50927226DE3E3900CA2FAA /* LandmarkSettings.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -332,7 +335,7 @@
 				771FD9C126DA5A2500FB4481 /* locations.app */,
 				779D29A726DDD2B60077EF53 /* watch-locations.app */,
 				779D29B026DDD2B90077EF53 /* watch-locations Extension.appex */,
-				3E50924B26DE1FAF00CA2FAA /* mac-locations.app */,
+				3E50924B26DE1FAF00CA2FAA /* Locations.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -483,7 +486,7 @@
 			);
 			name = "mac-locations";
 			productName = "mac-locations";
-			productReference = 3E50924B26DE1FAF00CA2FAA /* mac-locations.app */;
+			productReference = 3E50924B26DE1FAF00CA2FAA /* Locations.app */;
 			productType = "com.apple.product-type.application";
 		};
 		771FD9C026DA5A2500FB4481 /* locations */ = {
@@ -646,6 +649,7 @@
 				3E50925D26DE21AD00CA2FAA /* LandmarkRow.swift in Sources */,
 				3E50926026DE21DA00CA2FAA /* FavoriteButton.swift in Sources */,
 				3E50926B26DE235400CA2FAA /* View+Extensions.swift in Sources */,
+				3E50927326DE3E3900CA2FAA /* LandmarkSettings.swift in Sources */,
 				3E50926426DE220A00CA2FAA /* Profile.swift in Sources */,
 				3E50925026DE1FAF00CA2FAA /* ContentView.swift in Sources */,
 				3E50925E26DE21D000CA2FAA /* CircleImage.swift in Sources */,
@@ -756,7 +760,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "ge.sabius.mac-locations";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Locations;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -781,7 +785,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "ge.sabius.mac-locations";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Locations;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
