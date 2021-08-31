@@ -34,18 +34,32 @@ struct MapView: View {
     }
     
     var body: some View {
-        Map(coordinateRegion: .constant(region))
+        Map(coordinateRegion: $region)
+            .onAppear {
+                setRegion(coordinate)
+            }
     }
-    
-    var regions: MKCoordinateRegion {
-        return MKCoordinateRegion(
+
+    private func setRegion(_ coordinate: CLLocationCoordinate2D) {
+        region = MKCoordinateRegion(
             center: coordinate,
-            span: MKCoordinateSpan(
-                latitudeDelta: delta,
-                longitudeDelta: delta
-            )
+            span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2)
         )
     }
+    
+//    var body: some View {
+//        Map(coordinateRegion: .constant(region))
+//    }
+//
+//    var regions: MKCoordinateRegion {
+//        return MKCoordinateRegion(
+//            center: coordinate,
+//            span: MKCoordinateSpan(
+//                latitudeDelta: delta,
+//                longitudeDelta: delta
+//            )
+//        )
+//    }
     
 }
 
