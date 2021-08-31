@@ -11,6 +11,10 @@
 		3E50924226DD219000CA2FAA /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50924126DD219000CA2FAA /* FeatureCard.swift */; };
 		3E50924426DD221A00CA2FAA /* TextOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50924326DD221A00CA2FAA /* TextOverlay.swift */; };
 		3E50924626DD237B00CA2FAA /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50924526DD237B00CA2FAA /* PageView.swift */; };
+		3E50924E26DE1FAF00CA2FAA /* mac_locationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50924D26DE1FAF00CA2FAA /* mac_locationsApp.swift */; };
+		3E50925026DE1FAF00CA2FAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50924F26DE1FAF00CA2FAA /* ContentView.swift */; };
+		3E50925226DE1FB200CA2FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E50925126DE1FB200CA2FAA /* Assets.xcassets */; };
+		3E50925526DE1FB200CA2FAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E50925426DE1FB200CA2FAA /* Preview Assets.xcassets */; };
 		771E501026DB3F91000AB3FE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E500F26DB3F91000AB3FE /* Helpers.swift */; };
 		771E501226DB43E7000AB3FE /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E501126DB43E7000AB3FE /* FavoriteButton.swift */; };
 		771E501526DB4BD1000AB3FE /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E501426DB4BD1000AB3FE /* HexagonParameters.swift */; };
@@ -122,6 +126,13 @@
 		3E50924126DD219000CA2FAA /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		3E50924326DD221A00CA2FAA /* TextOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextOverlay.swift; sourceTree = "<group>"; };
 		3E50924526DD237B00CA2FAA /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		3E50924B26DE1FAF00CA2FAA /* mac-locations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mac-locations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E50924D26DE1FAF00CA2FAA /* mac_locationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_locationsApp.swift; sourceTree = "<group>"; };
+		3E50924F26DE1FAF00CA2FAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3E50925126DE1FB200CA2FAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E50925426DE1FB200CA2FAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E50925626DE1FB200CA2FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E50925726DE1FB200CA2FAA /* mac_locations.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mac_locations.entitlements; sourceTree = "<group>"; };
 		771E500F26DB3F91000AB3FE /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		771E501126DB43E7000AB3FE /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		771E501426DB4BD1000AB3FE /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
@@ -175,6 +186,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3E50924826DE1FAF00CA2FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		771FD9BE26DA5A2500FB4481 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,6 +217,27 @@
 				3E50924526DD237B00CA2FAA /* PageView.swift */,
 			);
 			path = Page;
+			sourceTree = "<group>";
+		};
+		3E50924C26DE1FAF00CA2FAA /* mac-locations */ = {
+			isa = PBXGroup;
+			children = (
+				3E50924D26DE1FAF00CA2FAA /* mac_locationsApp.swift */,
+				3E50924F26DE1FAF00CA2FAA /* ContentView.swift */,
+				3E50925126DE1FB200CA2FAA /* Assets.xcassets */,
+				3E50925626DE1FB200CA2FAA /* Info.plist */,
+				3E50925726DE1FB200CA2FAA /* mac_locations.entitlements */,
+				3E50925326DE1FB200CA2FAA /* Preview Content */,
+			);
+			path = "mac-locations";
+			sourceTree = "<group>";
+		};
+		3E50925326DE1FB200CA2FAA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3E50925426DE1FB200CA2FAA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		771E500E26DB3F79000AB3FE /* Helpers */ = {
@@ -254,6 +293,7 @@
 				771FD9C326DA5A2500FB4481 /* locations */,
 				779D29A826DDD2B60077EF53 /* watch-locations */,
 				779D29B426DDD2B90077EF53 /* watch-locations Extension */,
+				3E50924C26DE1FAF00CA2FAA /* mac-locations */,
 				771FD9C226DA5A2500FB4481 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -264,6 +304,7 @@
 				771FD9C126DA5A2500FB4481 /* locations.app */,
 				779D29A726DDD2B60077EF53 /* watch-locations.app */,
 				779D29B026DDD2B90077EF53 /* watch-locations Extension.appex */,
+				3E50924B26DE1FAF00CA2FAA /* mac-locations.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -399,6 +440,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3E50924A26DE1FAF00CA2FAA /* mac-locations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E50925A26DE1FB200CA2FAA /* Build configuration list for PBXNativeTarget "mac-locations" */;
+			buildPhases = (
+				3E50924726DE1FAF00CA2FAA /* Sources */,
+				3E50924826DE1FAF00CA2FAA /* Frameworks */,
+				3E50924926DE1FAF00CA2FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mac-locations";
+			productName = "mac-locations";
+			productReference = 3E50924B26DE1FAF00CA2FAA /* mac-locations.app */;
+			productType = "com.apple.product-type.application";
+		};
 		771FD9C026DA5A2500FB4481 /* locations */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 771FD9D026DA5A2900FB4481 /* Build configuration list for PBXNativeTarget "locations" */;
@@ -461,6 +519,9 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					3E50924A26DE1FAF00CA2FAA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 					771FD9C026DA5A2500FB4481 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -488,11 +549,21 @@
 				771FD9C026DA5A2500FB4481 /* locations */,
 				779D29A626DDD2B60077EF53 /* watch-locations */,
 				779D29AF26DDD2B90077EF53 /* watch-locations Extension */,
+				3E50924A26DE1FAF00CA2FAA /* mac-locations */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3E50924926DE1FAF00CA2FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E50925526DE1FB200CA2FAA /* Preview Assets.xcassets in Resources */,
+				3E50925226DE1FB200CA2FAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		771FD9BF26DA5A2500FB4481 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -527,6 +598,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3E50924726DE1FAF00CA2FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E50925026DE1FAF00CA2FAA /* ContentView.swift in Sources */,
+				3E50924E26DE1FAF00CA2FAA /* mac_locationsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		771FD9BD26DA5A2500FB4481 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -611,6 +691,56 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		3E50925826DE1FB200CA2FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "mac-locations/mac_locations.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"mac-locations/Preview Content\"";
+				DEVELOPMENT_TEAM = 2GY7TL5G8Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "mac-locations/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "ge.sabius.mac-locations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3E50925926DE1FB200CA2FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "mac-locations/mac_locations.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"mac-locations/Preview Content\"";
+				DEVELOPMENT_TEAM = 2GY7TL5G8Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "mac-locations/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "ge.sabius.mac-locations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		771FD9CE26DA5A2900FB4481 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -862,6 +992,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3E50925A26DE1FB200CA2FAA /* Build configuration list for PBXNativeTarget "mac-locations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E50925826DE1FB200CA2FAA /* Debug */,
+				3E50925926DE1FB200CA2FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		771FD9BC26DA5A2500FB4481 /* Build configuration list for PBXProject "locations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
