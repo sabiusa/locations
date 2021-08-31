@@ -17,6 +17,10 @@ struct LocationsApp: App {
             ContentView()
                 .environmentObject(modelData)
         }
+        
+        #if os(watchOS)
+        WKNotificationScene(controller: NotificationContoller.self, category: "LandmarkNear")
+        #endif
     }
     
 }
